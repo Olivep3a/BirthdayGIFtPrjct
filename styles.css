@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(pink, purple) fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1, h2, h3, h4, p {
+text-shadow: 1px 3px 3px black;
+}
+
+#baby-img {
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+#love { 
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius:5px ;   
+    margin: 5px 0px 10px 0px;
+}
+
+
+#anni-date {
+    margin: 0px;
+    background: #efb0c9;   
+    padding: 5px 10px;
+    border-radius:5px ;   
+}
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-section {
+    margin-top: 30px;
+
+}
+
+.letter-title { 
+    margin-bottom: 10px;
+}
+
+.letter-hint {
+    margin: 8px 0px -70px 0px;
+}
+
+.letter-img {
+    margin: 0 0 -100px;
+    width: 500px;
+    height: 500px;
+    background-image: url(images/vecteezy_love-letter-message-3d-illustration-shape_10987524_506.png);
+    background-size: cover;
+}
+
+#Iloveyou:hover {
+    margin: 100px 100px -200px;
+    width: 300px;
+    background-image: url(images/Iloveyou.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.letter-title2 {
+    margin-bottom: -90px;
+}
+
+#cutenote:hover {
+    margin: 150px 100px -300px;
+    width: 300px;
+    height: 500px;
+    background-image: url(images/everything.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#oneword:hover {
+        margin: 100px 100px -200px;
+        width: 300px;
+        background-image: url(images/hot.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+    }
+    
+#rip:hover {
+        margin: 100px 100px -100px;
+        width: 300px;
+        background-image: url(images/olddance.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+#gift-img-cheers {
+        width: 500px;
+        background-image: url(images/vecteezy_love-letter-message-3d-illustration-shape_10987524_506.png);
+    }
+    
+#gift-img-cheers:hover {
+            margin: 100px 100px -200px;
+            width: 300px;
+            background-image: url(images/unitwerk.gif);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+#footer {
+    width: 400px;
+    margin: 40px auto 20px;
+}
+        /* 
+    flex direction
+    justify-direction
+    align items
+    
+    *all work only in FLEXBOX i.e (display: flex;)
